@@ -1,0 +1,31 @@
+Загрузите датасет transaction_data.csv. Проверьте размер таблицы, типы переменных, число пропущенных значений и описательную статистику.
+
+Какие значения находятся в колонке transaction? Сколько наблюдений относятся к тому или иному уровню? Визуализируйте результат с помощью барплота. Подумайте, как можно улучшить график.
+
+Сколько транзакций завершились ошибкой?
+
+Сколько успешных транзакций осуществил каждый из пользователей? Постройте гистограмму распределения числа успешных транзакций.
+
+Коллега прислал Вам обновленные данные. (transaction_data_updated.csv)
+Постройте сводную таблицу user_vs_minute_pivot, где в качестве столбцов будут использованы имена пользователей, строк – минуты, значений – число совершенных операций в указанную минуту. Пропущенные значения заполните нулями.
+
+Изучите представленный график. Помогите коллеге разобраться,  есть ли в данных ошибка, или же всё хорошо.
+Если в данные закралась ошибка, исправьте её и сохраните правильное число минут, прошедших с начала дня, в колонку true_minute.
+
+
+___________________________________________________________________________________________________________________
+
+
+Download the transaction_data.csv dataset. Check the table size, variable types, number of missing values, and descriptive statistics.
+
+What values are in the transaction column? How many observations belong to one level or another? Visualize the result with a barplot. Think about how you can improve the schedule.
+
+How many transactions failed?
+
+How many successful transactions did each user make? Plot a histogram of the distribution of the number of successful transactions.
+
+A colleague has sent you an update. (transaction_data_updated.csv)
+Build a pivot table user_vs_minute_pivot, where the columns will be user names, rows - minutes, values - the number of transactions performed in the specified minute. Fill in the missing values with zeros.
+
+Review the chart provided. Help a colleague figure out if there is an error in the data, or if everything is fine.
+If there is an error in the data, correct it and store the correct number of minutes since the start of the day in the true_minute column.
